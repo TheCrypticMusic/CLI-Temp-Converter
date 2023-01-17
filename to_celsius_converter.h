@@ -1,3 +1,5 @@
-float to_celsius_converter(int fahrenheit) {
-    return fahrenheit;
+float to_celsius_converter(float fahrenheit)
+{
+    float celsius = (fahrenheit - 32) * 5 / 9;
+    return celsius;
 }
